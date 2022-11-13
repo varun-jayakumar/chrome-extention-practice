@@ -1,0 +1,17 @@
+{
+  "name": "Injector",
+  "description": "Inject Your Custom JavaScript And CSS To Any Website.",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.youtube.com/*",
+        "https://*.google.com/*",
+        "https://*.bu.edu/*"
+      ],
+      "js": ["app.js"]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+tbody > tr:nth-child(even) {
+    margin: 2em 0;
+}
